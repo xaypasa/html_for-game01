@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/frontend-html/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="pos">
+        <article>
+            <input id="search" placeholder="search" type="text">
+            <ul id="product-list"></ul>
+        </article>
+        <article>
+            <ul id="items">
+                <li>
+                    <img src="https://a.cdn-hotels.com/gdcs/production0/d1513/35c1c89e-408c-4449-9abe-f109068f40c0.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+                        alt="">
+                    <div>
+                        <article class="product-title">
+                            <h3>Pizza</h3>
+                            <span>9.99$</span>
+                        </article>
+                        <article class="buttons">
+                            <span class="amount">
+                                <button id="removeBtn">-</button>
+                                <span>1</span>
+                                <button id="addBtn">+</button>
+                            </span>
+                            <span class="delBtn">
+                                <button>
+                                    <i class="fa-solid fa-circle-exclamation"></i>
+                                </button>
+                            </span>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </div>
+
+    <script src="/frontend-html/js/pos.js"></script>
+</body>
+
+</html>
